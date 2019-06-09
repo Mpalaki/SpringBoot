@@ -11,6 +11,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
@@ -59,9 +60,10 @@ public class FirstController {
     }
     
     @RequestMapping("/viewTrainers")
-    public List<Trainer> viewAll() {
-        List l = repo.findAll();
-        return l;
+    public ModelAndView viewAll() {
+        ModelAndView mv = new ModelAndView("seeall");
+        mv.addObject("trainerList", repo.findAll());
+        return mv;
     }
     
 //    @RequestMapping("/seeAll")

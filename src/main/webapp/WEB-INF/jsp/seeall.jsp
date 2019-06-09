@@ -3,6 +3,8 @@
     Created on : 09-Jun-2019, 20:57:48
     Author     : Makis
 --%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -21,7 +23,7 @@
                 <th>username</th>
                 <th>passwords</th>
             </tr>
-            <c:forEach var = "l" items="${l}">
+            <c:forEach var = "l" items="${trainerList}">
                 <tr>
                     <td>${l.idtrainer}</td>
                     <td>${l.firstname}</td>

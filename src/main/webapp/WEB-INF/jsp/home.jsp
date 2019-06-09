@@ -12,9 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="insert">insert trainer</a> 
-        <a href="delete">delete trainer</a> 
-        <a href="viewTrainers">view all trainers</a> 
-        <a href="update">update trainer</a> 
+        <a href="insert">insert trainer</a> </br>
+        <a href="delete">delete trainer</a> </br>
+        <a href="viewTrainers">view all trainers</a> </br>
+        <a href="update">update trainer</a> </br>
     </body>
 </html>
