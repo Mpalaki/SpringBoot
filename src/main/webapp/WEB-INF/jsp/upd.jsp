@@ -1,6 +1,6 @@
 <%-- 
-    Document   : second
-    Created on : 08-Jun-2019, 22:06:23
+    Document   : upd
+    Created on : 09-Jun-2019, 22:06:14
     Author     : Makis
 --%>
 
@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="insertTrainer" method="post">
+        <form action="updateTrainer" method="post">
             idtrainer:<input type="text" name="idtrainer"></br>
             first name:<input type="text" name="firstname"></br>
             last name:<input type="text" name="lastname"></br>

@@ -1,6 +1,6 @@
 <%-- 
     Document   : home
-    Created on : 08-Jun-2019, 21:07:32
+    Created on : 09-Jun-2019, 20:45:15
     Author     : Makis
 --%>
 
@@ -12,7 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Kanei zesti ...</h1>
         <a href="insert">insert trainer</a> 
         <a href="delete">delete trainer</a> 
         <a href="viewTrainers">view all trainers</a> 
